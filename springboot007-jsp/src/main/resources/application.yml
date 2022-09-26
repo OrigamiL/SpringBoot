@@ -1,0 +1,12 @@
+#配置端口号和上下文路径
+server:
+  port: 8080
+  servlet:
+    context-path: /myBoot
+#配置视图解析器
+#  / = src/main/webapp
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp

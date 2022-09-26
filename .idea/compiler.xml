@@ -7,8 +7,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot009-commandlinerunner" />
+        <module name="springboot008-container" />
+        <module name="spring002" />
         <module name="springboot001" />
+        <module name="springboot002" />
+        <module name="springboot010-interceptor" />
+        <module name="springboot005" />
+        <module name="springboot006" />
+        <module name="springboot003" />
+        <module name="springboot007-jsp" />
+        <module name="springboot004" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring002" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot002" options="-parameters" />
+      <module name="springboot003" options="-parameters" />
+      <module name="springboot004" options="-parameters" />
+      <module name="springboot005" options="-parameters" />
+      <module name="springboot006" options="-parameters" />
+      <module name="springboot007-jsp" options="-parameters" />
+      <module name="springboot008-container" options="-parameters" />
+      <module name="springboot009-commandlinerunner" options="-parameters" />
+      <module name="springboot010-interceptor" options="-parameters" />
+    </option>
   </component>
 </project>

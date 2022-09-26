@@ -1,0 +1,11 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /myBoot
+
+#自定义key
+school:
+  name: 折纸
+  website: www.zhezhi.com
+  address: 潍坊
+site: www.baidu.com

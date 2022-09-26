@@ -1,0 +1,5 @@
+#测试使用的端口号
+server:
+  port: 8099
+  servlet:
+    context-path: /myTest
