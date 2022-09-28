@@ -23,7 +23,7 @@ import javax.servlet.Servlet;
 public class ServletConfig {
     @Bean
     public ServletRegistrationBean<Servlet> servletRegistrationBean() {
-        return new ServletRegistrationBean<>(new MyServlet(),"/myServlet");
+        return new ServletRegistrationBean<>(new MyServlet(),"/myServlet/servlet");
     }
     @Bean
     public FilterRegistrationBean<Filter> filterFilterRegistrationBean() {

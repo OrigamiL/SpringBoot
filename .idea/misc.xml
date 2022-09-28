@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/springboot010-interceptor/pom.xml" />
         <option value="$PROJECT_DIR$/springboot011-servlet/pom.xml" />
         <option value="$PROJECT_DIR$/springboot012-characterFilter/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot013-character-properties/pom.xml" />
       </list>
     </option>
   </component>

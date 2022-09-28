@@ -2,3 +2,6 @@ server:
   servlet:
     encoding:
       enabled: false
+  port: 8011
+#SpringBoot中默认已经配置了字符集过滤器 编码默认为ISO-8859-1
+#设enabled置为false，作用是关闭系统中配置好的过滤器，使用自定义的CharacterEncodingFilter
