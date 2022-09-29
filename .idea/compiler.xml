@@ -12,6 +12,7 @@
         <module name="springboot008-container" />
         <module name="springboot011-servlet" />
         <module name="springboot007-jsp" />
+        <module name="springboot014-mapper" />
         <module name="springboot012-characterFilter" />
         <module name="spring002" />
         <module name="springboot001" />
@@ -41,6 +42,7 @@
       <module name="springboot011-servlet" options="-parameters" />
       <module name="springboot012-characterFilter" options="-parameters" />
       <module name="springboot013-character-properties" options="-parameters" />
+      <module name="springboot014-mapper" options="-parameters" />
     </option>
   </component>
 </project>

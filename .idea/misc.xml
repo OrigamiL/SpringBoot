@@ -17,10 +17,11 @@
         <option value="$PROJECT_DIR$/springboot011-servlet/pom.xml" />
         <option value="$PROJECT_DIR$/springboot012-characterFilter/pom.xml" />
         <option value="$PROJECT_DIR$/springboot013-character-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot014-mapper/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" project-jdk-name="17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

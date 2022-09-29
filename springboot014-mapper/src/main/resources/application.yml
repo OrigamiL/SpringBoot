@@ -1,0 +1,22 @@
+server:
+  port: 9001
+  servlet:
+    context-path: /orm
+#连接数据库
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springdb?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 294753qQ
+mybatis:
+  type-aliases-package: com.zhezhi.model
+  #指定mapper文件的位置
+  mapper-locations: classpath:mapper/*.xml
+  #指定mybatis日志
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#SpringBoot中使用事务：
+#1.在业务方法的上面加入@Transactional,加入注解后，方法就有事务功能了
+#2.明确地在主启动类的上面，加入@EnabletransactionManagement
