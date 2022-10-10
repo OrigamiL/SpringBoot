@@ -2,6 +2,8 @@ package com.zhezhi.controller;
 
 import com.zhezhi.model.Student;
 import com.zhezhi.servlce.StudentService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -18,10 +20,10 @@ import javax.annotation.Resource;
  **/
 
 @Controller
+@RequiredArgsConstructor(onConstructor_ = @Autowired)
 public class StudentController {
 
-    @Resource
-    private StudentService studentService;
+    private final StudentService studentService;
 
     @RequestMapping("/addStudent")
     @ResponseBody

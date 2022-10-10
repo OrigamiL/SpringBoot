@@ -3,11 +3,10 @@ package com.zhezhi.servlce.impl;
 import com.zhezhi.dao.StudentMapper;
 import com.zhezhi.model.Student;
 import com.zhezhi.servlce.StudentService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import javax.annotation.Resource;
 
 /**
  * @Program: SpringBoot
@@ -25,11 +24,11 @@ import javax.annotation.Resource;
  *      抛出运行时异常回滚事务
  */
 @Service
-
+@RequiredArgsConstructor(onConstructor_ = @Autowired)
 public class StudentServiceImpl implements StudentService {
 
-    @Resource
-    private StudentMapper studentMapper;
+
+    private final StudentMapper studentMapper;
 
     @Override
     @Transactional(noRollbackForClassName="ArithmeticException")

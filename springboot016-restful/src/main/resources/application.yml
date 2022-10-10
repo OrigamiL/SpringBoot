@@ -1,0 +1,11 @@
+server:
+  port: 8011
+  servlet:
+    context-path: /myBoot
+
+#启用支持put delete
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true

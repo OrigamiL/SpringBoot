@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/springboot013-character-properties/pom.xml" />
         <option value="$PROJECT_DIR$/springboot014-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/springboot015-transactional/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot016-restful/pom.xml" />
       </list>
     </option>
   </component>
