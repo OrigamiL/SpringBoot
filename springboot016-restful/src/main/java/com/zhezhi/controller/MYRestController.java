@@ -55,4 +55,7 @@ public class MYRestController {
     public String test() {
         return "测试put";
     }
+    /*
+      url+请求方式  必须唯一
+     */
 }
